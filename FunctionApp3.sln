@@ -1,0 +1,20 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# RemObjects Fire
+Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "FunctionApp3", "FunctionApp3.elements", "{40A243BB-5D7B-45D3-A95B-8AF76EA9E199}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AnyCPU = Debug|AnyCPU
+		Release|AnyCPU = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40A243BB-5D7B-45D3-A95B-8AF76EA9E199}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{40A243BB-5D7B-45D3-A95B-8AF76EA9E199}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{40A243BB-5D7B-45D3-A95B-8AF76EA9E199}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{40A243BB-5D7B-45D3-A95B-8AF76EA9E199}.Release|AnyCPU.Build.0 = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

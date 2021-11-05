@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Function1",
+    "scriptFile": "FunctionApp3.dll",
+    "entryPoint": "FunctionApp3.Function1.Run",
+    "language": "dotnet-isolated",
+    "properties": {
+      "IsCodeless": false
+    },
+    "bindings": [
+      {
+        "name": "request",
+        "type": "httpTrigger",
+        "direction": "In",
+        "authLevel": "Function",
+        "methods": [
+          "get",
+          "post"
+        ]
+      },
+      {
+        "name": "$return",
+        "type": "http",
+        "direction": "Out"
+      }
+    ]
+  }
+]
