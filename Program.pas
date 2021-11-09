@@ -10,8 +10,8 @@ type
     class method Main(args: array of String): Task<Int32>;
     begin
       var host := new HostBuilder()
-          .ConfigureFunctionsWorkerDefaults()
-          .Build();
+          .ConfigureFunctionsWorkerDefaults
+          .Build;
 
       await host.RunAsync;
     end;
